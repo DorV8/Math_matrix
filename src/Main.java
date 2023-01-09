@@ -29,10 +29,9 @@ public class Main {
         System.out.printf("%52s","Сумма всех членов: ");
         System.out.println(sum);
         System.out.printf("%52s","Произведение всех членов в экспоненциальной форме: ");
-        System.out.printf("%.3e", pr);
+        System.out.printf("%.3e %n", pr);
         Instant finish = Instant.now();
         long elapsed = Duration.between(start, finish).toMillis();
-        System.out.println();
         System.out.println("Прошло времени, мс: " + elapsed);
     }
 }
